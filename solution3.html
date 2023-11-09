@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solution 3</title>
+
+    <!-- 3. Create a navigation bar similar to question 1. For each navigation item, use a different border style. -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: #6495ed;
+        }
+
+        ul {
+            display: flex;
+
+        }
+
+        ul li {
+            list-style: none;
+            padding: 10px;
+        }
+
+        a {
+            color: white;
+            /* text-decoration: none; */
+        }
+
+        .item-1 {
+            border: 2px solid rgb(17, 17, 17);
+            border-style: dashed;
+            margin: 10px;
+        }
+
+        .item-2 {
+            border: 2px solid rgb(0, 0, 0);
+            border-style: groove;
+            margin: 10px;
+        }
+
+        .item-3 {
+            border: 2px solid black;
+            border-style: double;
+            margin: 10px;
+        }
+
+        .item-4 {
+            border: 2px solid black;
+            border-style: dotted;
+            margin: 10px;
+        }
+
+        .item-5 {
+            border: 2px solid black;
+            border-style: inset;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="item-1"><a href="/">Home</a></li>
+            <li class="item-2"><a href="/">About Us</a></li>
+            <li class="item-3"><a href="/">Contact</a></li>
+            <li class="item-4"><a href="/">Blog</a></li>
+            <li class="item-5"><a href="/">Login</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
